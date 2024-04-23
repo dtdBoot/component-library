@@ -10,7 +10,7 @@ function App() {
     <>
       <Button color="blue" shape="pill"></Button>
       <Banner bannerType="neutral">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam quo totam eius aperiam dolorum.</Banner>
-      <Card></Card>
+      <Card>Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis. </Card>
     </>
   )
 }
