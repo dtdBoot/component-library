@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-      <Button color={"red"} shape={"square"}></Button>
+      <Button color={"blue"} shape={"pill"}></Button>
     </>
   )
 }

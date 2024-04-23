@@ -44,6 +44,6 @@ export default function Button({ color, shape, children = "Badge" }) {
     }
 
     return (
-        <button className={shape} style={styles}>{children}</button>
+        <button className={`button-component ${shape}`} style={styles}>{children}</button>
     );
 };
