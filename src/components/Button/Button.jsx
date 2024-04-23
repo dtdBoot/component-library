@@ -6,7 +6,7 @@ export default function Button({ color, shape, children = "Badge" }) {
     const styles = {
         color: {},
         backgroundColor: {}
-    }
+    };
 
     switch (color) {
         case "gray":
@@ -45,5 +45,5 @@ export default function Button({ color, shape, children = "Badge" }) {
 
     return (
         <button className={shape} style={styles}>{children}</button>
-    )
+    );
 };
