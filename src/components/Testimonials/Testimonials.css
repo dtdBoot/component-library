@@ -1,0 +1,45 @@
+.testimonial-container {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.profile-pic {
+    position: absolute;
+    top: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 0.5em;
+    box-shadow: 0 15px 15px 0 rgba(0, 0, 0, 0.25);
+    width: 90%;
+    height: 225px;
+}
+
+.testimonial-body {
+    color: white;
+    font-weight: 300;
+    background-color: #2545B8;
+    text-align: left;
+    margin-top: 7em;
+    padding: 11em 1em 4em;
+}
+
+.testimonial-body-text {
+    font-size: 1.5rem;
+}
+
+.testimonial-source p {
+    margin: 0.25em 0;
+}
+
+.testimonial-source-name {
+    font-weight: 500;
+}
+
+@media (min-width: 768px) {
+
+}

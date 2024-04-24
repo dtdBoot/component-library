@@ -16,7 +16,7 @@
 
 .brand-icon {
     position: absolute;
-    top: -15%;
+    top: -25px;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -30,5 +30,6 @@
 .card-body {
     color: #6B7280;
     font-weight: 300;
+    font-size: 0.9rem;
     margin-top: 0.5em;
 }
