@@ -1,10 +1,11 @@
 import React from "react";
 import doubleQuotes from "../../assets/double-quotes.svg";
 import dotPattern from "../../assets/dot-pattern.svg";
-import profilePicDefault from "../../assets/profile-pic.png";
+import profilePicDefaultSmall from "../../assets/profile-pic.png";
+import profilePicDefaultLarge from "../../assets/profile-pic-lg.png"
 import "./Testimonials.css";
 
-export default function Testimonials({ profilePic = profilePicDefault, name, title, orgIcon, children }) {
+export default function Testimonials({ profilePic = profilePicDefaultLarge, name, title, orgIcon, children }) {
 
     const profilePicEl = (
         <div 
