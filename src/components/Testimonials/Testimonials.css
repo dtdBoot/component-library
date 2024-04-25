@@ -35,7 +35,7 @@
     padding: 4em 1em;
 }
 
-.testimonial-body,
+.testimonial-body-pic,
 .testimonial-body-no-pic {
     font-weight: 300;
     text-align: left;
@@ -89,11 +89,18 @@
         height: 120%;
     }
 
-    .testimonial-body {
+    .testimonial-body-pic {
         margin-top: 0;
+        text-align: left;
+        padding: 8em 4em 5em;
     }
 
-    .testimonial-body-text {
+    .testimonial-text-container-pic,
+    .double-quotes {
+        padding-left: 40%;
+    }
+
+    .testimonial-body-text-no-pic {
         max-width: 50%;
         text-align: center;
     }

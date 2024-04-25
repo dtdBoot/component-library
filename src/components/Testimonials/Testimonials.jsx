@@ -13,8 +13,8 @@ export default function Testimonials({ profilePic, name, title, orgIcon, childre
 
         const testimonialBodyPicEl = (
             <div className="testimonial-body-pic">
-                <img src={doubleQuotes} alt="An icon of double quotation marks." />
-                <div className="testimonial-text-container">
+                <img className="double-quotes" src={doubleQuotes} alt="An icon of double quotation marks." />
+                <div className="testimonial-text-container-pic">
                     <p className="testimonial-body-text">{children}</p>
                     <div className="testimonial-source">
                         <p className="testimonial-source-name">{name}</p>
@@ -26,9 +26,8 @@ export default function Testimonials({ profilePic, name, title, orgIcon, childre
 
         const testimonialBodyNoPicEl = (
             <div className="testimonial-body-no-pic">
-                <img className="logo-no-pic" src={defaultLogo} alt="An icon of double quotation marks." />
                 <div className="testimonial-text-container">
-                    <p className="testimonial-body-text">{children}</p>
+                    <p className="testimonial-body-text-no-pic">{children}</p>
                     <div className="testimonial-source">
                         <p className="testimonial-source-name">{name}</p>
                         <img className="slash-logo" src={slash} alt="A slash logo" />
